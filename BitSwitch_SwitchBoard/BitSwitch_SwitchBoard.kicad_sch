@@ -1,0 +1,6358 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "49c3c90d-196f-4d4a-9423-6aae8ccd2e83")
+	(paper "A4")
+	(lib_symbols
+		(symbol "74xx:74HC165"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -7.62 19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74HC165"
+				(at -7.62 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Shift Register, 8-bit, Parallel Load"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "8 bit shift register parallel load cmos"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DIP?16* SO*16*3.9x9.9mm*P1.27mm* SSOP*16*5.3x6.2mm*P0.65mm* TSSOP*16*4.4x5mm*P0.65*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74HC165_1_0"
+				(pin input line
+					(at -12.7 -10.16 0)
+					(length 5.08)
+					(name "~{PL}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -15.24 0)
+					(length 5.08)
+					(name "CP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 12.7 180)
+					(length 5.08)
+					(name "~{Q7}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -25.4 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 15.24 180)
+					(length 5.08)
+					(name "Q7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 15.24 0)
+					(length 5.08)
+					(name "DS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 12.7 0)
+					(length 5.08)
+					(name "D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 10.16 0)
+					(length 5.08)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 7.62 0)
+					(length 5.08)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -17.78 0)
+					(length 5.08)
+					(name "~{CE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 22.86 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC165_1_1"
+				(rectangle
+					(start -7.62 17.78)
+					(end 7.62 -20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x05_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x05_Pin"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x05, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x05_Pin_1_1"
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Push_Open"
+				(at 0 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, push-to-open, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-closed pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_Open_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -0.635) (xy 2.54 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.635) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_Push_Open_1_1"
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 156.21 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0791af6a-2360-45fb-99f7-fb0c115a76cd")
+	)
+	(junction
+		(at 95.25 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d14e4fd-228c-40d4-92af-5b8709549ee9")
+	)
+	(junction
+		(at 176.53 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9169036f-02d9-43d1-b21f-d0d28b0cb379")
+	)
+	(junction
+		(at 217.17 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d055a68-52b1-454c-b933-b699523055cf")
+	)
+	(junction
+		(at 135.89 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a057654f-9d5b-4df0-9430-cfe038333f05")
+	)
+	(junction
+		(at 115.57 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b85d6398-9855-49c2-878b-3b5d5431d698")
+	)
+	(junction
+		(at 74.93 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2384146-f1ae-4655-ad9e-45d158af476a")
+	)
+	(junction
+		(at 196.85 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4a30c82-76f3-48a5-8428-8606a68b8633")
+	)
+	(no_connect
+		(at 154.94 63.5)
+		(uuid "f0f85acf-ab19-4aa5-8892-680240fdfed5")
+	)
+	(bus_entry
+		(at 77.47 110.49)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a777681-1843-4431-9475-72435fe79fd2")
+	)
+	(bus_entry
+		(at 199.39 110.49)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0be90abe-dbc6-4461-91e7-ce34ada5c368")
+	)
+	(bus_entry
+		(at 158.75 110.49)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d51c327-e71b-477f-8168-a359c3c2ebf4")
+	)
+	(bus_entry
+		(at 125.73 66.04)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f961d30-54bc-4aec-acdf-d05e6ebbf2ac")
+	)
+	(bus_entry
+		(at 125.73 78.74)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "708c6beb-b58e-49c2-90ca-51d10fc708e9")
+	)
+	(bus_entry
+		(at 125.73 73.66)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75249af9-dfff-42c6-a82b-f00dc4f9700f")
+	)
+	(bus_entry
+		(at 179.07 110.49)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76fd6d72-6388-4f6e-b033-67cca9815194")
+	)
+	(bus_entry
+		(at 219.71 110.49)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7745acae-e914-4067-b4ed-8e69602ff6e6")
+	)
+	(bus_entry
+		(at 125.73 68.58)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94d3745a-cdc1-470b-8c46-6a573bf3ea65")
+	)
+	(bus_entry
+		(at 125.73 71.12)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b0c48cb-8a69-46e9-850c-07d19cadae75")
+	)
+	(bus_entry
+		(at 97.79 110.49)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c22770d-f483-456e-881c-718d3484e47a")
+	)
+	(bus_entry
+		(at 138.43 110.49)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a66c85b5-a1cc-44a9-9c00-c10fdfef0f4f")
+	)
+	(bus_entry
+		(at 125.73 81.28)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b23e6a3e-832d-41bc-a1ce-ce3525ae1aaf")
+	)
+	(bus_entry
+		(at 125.73 83.82)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce3fcd9f-a746-42da-add7-b817e5be7721")
+	)
+	(bus_entry
+		(at 125.73 76.2)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd0988bf-ef24-4333-853d-7441f115b3e8")
+	)
+	(bus_entry
+		(at 118.11 110.49)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa806c78-9de4-4b1c-bb53-cfe3c0979c1f")
+	)
+	(wire
+		(pts
+			(xy 154.94 123.19) (xy 156.21 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03649116-1090-4a97-a6dd-517a15d42bfb")
+	)
+	(wire
+		(pts
+			(xy 129.54 76.2) (xy 128.27 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "069076c2-b736-46dd-9743-cad6e9d1c410")
+	)
+	(wire
+		(pts
+			(xy 135.89 123.19) (xy 137.16 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "198cfde2-9273-4400-b462-52e19af47bc5")
+	)
+	(wire
+		(pts
+			(xy 175.26 123.19) (xy 176.53 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d4a5f8a-9f70-41fc-8967-6371a48954bf")
+	)
+	(wire
+		(pts
+			(xy 135.89 113.03) (xy 135.89 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2037e61b-a7f3-4af6-8474-3627d062ee3c")
+	)
+	(wire
+		(pts
+			(xy 129.54 68.58) (xy 128.27 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20eac5ff-d7c5-4aca-8aa0-7aee6cd21eb3")
+	)
+	(wire
+		(pts
+			(xy 176.53 123.19) (xy 177.8 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29344311-4ddf-4303-922b-eeb279107970")
+	)
+	(wire
+		(pts
+			(xy 129.54 73.66) (xy 128.27 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db2da91-820b-4ee9-a171-386e1b6a42df")
+	)
+	(wire
+		(pts
+			(xy 115.57 123.19) (xy 116.84 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41b5ee3c-ea37-4038-8e6d-4313a380f5b9")
+	)
+	(wire
+		(pts
+			(xy 187.96 68.58) (xy 194.31 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42305363-2094-4385-8c40-809accc60c04")
+	)
+	(wire
+		(pts
+			(xy 95.25 113.03) (xy 95.25 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "429f0d36-e129-402a-9a31-3495bfe3c780")
+	)
+	(wire
+		(pts
+			(xy 74.93 123.19) (xy 76.2 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48959716-11e1-4d2d-b678-0f35fbb043ae")
+	)
+	(wire
+		(pts
+			(xy 217.17 123.19) (xy 218.44 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eb8d21d-c771-4739-bdd6-80a0460f9a8c")
+	)
+	(wire
+		(pts
+			(xy 95.25 123.19) (xy 96.52 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "509f187a-206d-4938-9409-858be81a85be")
+	)
+	(wire
+		(pts
+			(xy 134.62 123.19) (xy 135.89 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51deaae3-98e5-4d98-ac2e-0291bff16b0d")
+	)
+	(wire
+		(pts
+			(xy 129.54 63.5) (xy 128.27 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53a8fa18-faf8-45b5-adc2-783373ff4b10")
+	)
+	(bus
+		(pts
+			(xy 77.47 110.49) (xy 236.22 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b02640-9cfa-47fd-ad27-3c7961a64407")
+	)
+	(wire
+		(pts
+			(xy 73.66 123.19) (xy 74.93 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55e46307-c4d5-42e1-bf68-da2068cf7323")
+	)
+	(wire
+		(pts
+			(xy 195.58 123.19) (xy 196.85 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bee0c93-5392-43f4-9e1c-f4ec9f0c090c")
+	)
+	(wire
+		(pts
+			(xy 93.98 123.19) (xy 95.25 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c1feacd-2c40-417d-b7fc-b24faa40086c")
+	)
+	(wire
+		(pts
+			(xy 217.17 113.03) (xy 217.17 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c0dae1-bd66-4e0e-aea2-d26afea96c98")
+	)
+	(wire
+		(pts
+			(xy 129.54 71.12) (xy 128.27 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eaec6af-f20a-45cb-8e09-4791808297b6")
+	)
+	(wire
+		(pts
+			(xy 129.54 78.74) (xy 128.27 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75ac9af9-2507-4923-8492-4f67f95d5815")
+	)
+	(wire
+		(pts
+			(xy 176.53 113.03) (xy 176.53 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db93af7-3dd4-4125-a86a-b6aa5c5614ab")
+	)
+	(wire
+		(pts
+			(xy 129.54 66.04) (xy 128.27 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "804bd496-c57f-4b95-9431-c75902d10b9a")
+	)
+	(wire
+		(pts
+			(xy 114.3 123.19) (xy 115.57 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8115a561-30ed-4a81-ad63-1ab375b36e4b")
+	)
+	(wire
+		(pts
+			(xy 74.93 113.03) (xy 74.93 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "892d9759-bcf6-4a40-8c34-d50c74ad483a")
+	)
+	(wire
+		(pts
+			(xy 129.54 81.28) (xy 128.27 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e66e7bd-885f-470d-9ece-acf5488cf13f")
+	)
+	(wire
+		(pts
+			(xy 196.85 123.19) (xy 198.12 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9af10851-4350-40f4-9cee-4568d67af6a7")
+	)
+	(bus
+		(pts
+			(xy 125.73 66.04) (xy 125.73 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c12c3ff3-fcd8-4bc1-9eb7-c29cc35dbe35")
+	)
+	(wire
+		(pts
+			(xy 115.57 113.03) (xy 115.57 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9e5011a-08a7-4b67-91a5-fa782b643dcf")
+	)
+	(wire
+		(pts
+			(xy 215.9 123.19) (xy 217.17 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceddcbf5-0c88-4754-b75d-ee9211ededde")
+	)
+	(wire
+		(pts
+			(xy 156.21 113.03) (xy 156.21 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e096b0-d507-43d1-a5f7-57d85779f45e")
+	)
+	(wire
+		(pts
+			(xy 99.06 71.12) (xy 90.17 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8f4d378-2203-47eb-bb56-7e575e879d49")
+	)
+	(wire
+		(pts
+			(xy 156.21 123.19) (xy 157.48 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d93d2e7d-3059-4a20-b627-f946990a082c")
+	)
+	(wire
+		(pts
+			(xy 196.85 113.03) (xy 196.85 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dff79cac-4a8c-46e8-9ff7-710e42146cc7")
+	)
+	(wire
+		(pts
+			(xy 99.06 68.58) (xy 90.17 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f10f33ff-a9b8-4a24-bf85-fd0b5eb7a34b")
+	)
+	(wire
+		(pts
+			(xy 184.15 66.04) (xy 194.31 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc363ff2-4518-42b0-9df3-b6c10ce6377e")
+	)
+	(label "Serial_In"
+		(at 90.17 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "079d36b6-764c-41ba-9166-1bfe43309920")
+	)
+	(label "D1"
+		(at 95.25 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "098eb70a-2c5d-4d61-a376-daa5453f6ebe")
+	)
+	(label "D3"
+		(at 128.27 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f800fd2-bc29-4be7-a4ab-ec005ab63c5f")
+	)
+	(label "Serial_Out"
+		(at 154.94 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d3ccd8c-dd25-40be-8811-04d6692f056f")
+	)
+	(label "D4"
+		(at 128.27 73.66 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2155fbdb-2373-44d2-94a8-d4a27f518ae7")
+	)
+	(label "D[0..7]"
+		(at 236.22 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2825b5ad-533f-4713-a121-0531f0622a40")
+	)
+	(label "D6"
+		(at 196.85 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c508d6e-795e-4d97-961d-5d16316f0fbe")
+	)
+	(label "D4"
+		(at 156.21 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44df51d5-5ef6-4564-8785-a5f019f6bd69")
+	)
+	(label "D0"
+		(at 128.27 63.5 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51b1f020-c9f0-4d64-9191-ee61b6e8dbbc")
+	)
+	(label ""
+		(at 74.93 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5694e7d1-f327-43f4-87a4-f34a268d086b")
+	)
+	(label "D7"
+		(at 217.17 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e8a433c-b0f6-4823-be63-25389f86c24d")
+	)
+	(label "Serial_Out"
+		(at 194.31 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b8dbf33-eed3-4be8-a2c3-dbe52d71719c")
+	)
+	(label "Serial_In"
+		(at 129.54 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "74e8a2d8-7ee0-4f40-b921-3a3ab647a7fe")
+	)
+	(label "D3"
+		(at 135.89 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "874c79ba-324a-4f71-8787-83fc73f07cfd")
+	)
+	(label "D7"
+		(at 128.27 81.28 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7cd73cb-6d26-476f-a2bc-f8fa54df4d03")
+	)
+	(label "D6"
+		(at 128.27 78.74 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab04aa45-e8c6-4406-8079-ff724e825768")
+	)
+	(label "D2"
+		(at 115.57 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b695811e-427f-4a29-929b-b35a92a43e64")
+	)
+	(label "D0"
+		(at 74.93 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd8a76d8-8525-4f10-a455-ed167a66312d")
+	)
+	(label "D1"
+		(at 128.27 66.04 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c39464ac-2224-43e9-a26d-17b6fb20a846")
+	)
+	(label "D[0..7]"
+		(at 125.73 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cc490bdf-e1e4-4bc0-a3a4-8aa52ffb44b4")
+	)
+	(label "D5"
+		(at 128.27 76.2 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cce22333-bc26-43cc-b17b-1d0ad03f4b85")
+	)
+	(label "D5"
+		(at 176.53 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e891ca4b-494e-47fc-baaa-6828d6ca0d14")
+	)
+	(label "D2"
+		(at 128.27 68.58 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa00fd33-5510-454d-bc83-4a9f114d08de")
+	)
+	(global_label "LATCH"
+		(shape input)
+		(at 194.31 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10912758-3750-4ae3-ba4b-0f8666a11e68")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.64 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SCK"
+		(shape input)
+		(at 194.31 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a4113f1-59a6-4dad-9e44-adfa20e97958")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.5753 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SCK"
+		(shape input)
+		(at 90.17 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71709691-4a6d-4a21-b85a-f370e5575eda")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.9047 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "LATCH"
+		(shape input)
+		(at 90.17 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a7dd5f7-fe76-45c6-9c93-e9e99ff8245c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.84 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "LATCH"
+		(shape input)
+		(at 129.54 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3b294ee-9e58-4ef2-8fda-b81ac5138575")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.87 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SCK"
+		(shape input)
+		(at 129.54 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6af4849-3664-42e7-af36-a6627cae3a05")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.8053 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.82 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01f8cf3b-158b-4bc4-b138-b42740626624")
+		(property "Reference" "#PWR078"
+			(at 210.82 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9696ae18-f27a-480b-a5b6-758c573f5557")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "#PWR078")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "#PWR059")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "#PWR040")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 127 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d14c16b-69c6-45a7-8583-2dded1fbbd42")
+		(property "Reference" "#PWR064"
+			(at 127 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 127 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 127 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d6d2206b-6a31-407e-9a52-535a2e3645ce")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "#PWR064")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "#PWR026")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10ed74f0-6405-4e06-9a1d-a47219373239")
+		(property "Reference" "#PWR063"
+			(at 88.9 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a0455a6-316c-4690-8cbd-f31f0d33bd90")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "#PWR063")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "#PWR044")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "#PWR025")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_Open")
+		(at 162.56 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "126aeb2e-c2f8-4c94-a44c-3702767e42c8")
+		(property "Reference" "SW5"
+			(at 162.56 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_Open"
+			(at 162.56 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch:SW-SMD_HX-KFC-V-105"
+			(at 162.56 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 162.56 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c89c226f-828c-4739-b8bc-d74a9aa344b6")
+		)
+		(pin "1"
+			(uuid "9b41f04a-1bda-4c52-9f32-f64a4d956726")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "SW29")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "SW21")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "SW13")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 190.5 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22c904c4-d2c5-4f01-ae2e-4c964f3d222a")
+		(property "Reference" "#PWR076"
+			(at 190.5 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d65428d-012c-4502-af04-62e4ed595439")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "#PWR076")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "#PWR057")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "#PWR038")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 167.64 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "252a47c7-6339-4e3b-8619-a01e36608a91")
+		(property "Reference" "#PWR069"
+			(at 167.64 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 167.64 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 167.64 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a775062-23f9-4c51-853a-702e988a3d4a")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "#PWR069")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "#PWR050")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "#PWR031")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 91.44 123.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "254038d7-977c-489e-b626-0e89cb2e791e")
+		(property "Reference" "R2"
+			(at 91.44 128.016 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 91.44 125.476 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 91.44 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 91.44 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 91.44 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cad1f4bc-2219-470e-8167-a4b4f2bc1e21")
+		)
+		(pin "2"
+			(uuid "7469da6f-11a8-43c1-91d2-41c16e527e08")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_Open")
+		(at 142.24 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ecb50f3-876b-4935-904e-20f613fc2cde")
+		(property "Reference" "SW4"
+			(at 142.24 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_Open"
+			(at 142.24 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch:SW-SMD_HX-KFC-V-105"
+			(at 142.24 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 142.24 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "20f68cc0-8114-4262-bb5c-b91a9cfe6a43")
+		)
+		(pin "1"
+			(uuid "19fc87e5-c9b8-445a-abcb-0539b059f273")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "SW28")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "SW20")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "SW12")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 152.4 123.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3f725bb4-6c9c-4771-b031-11959eb5eae7")
+		(property "Reference" "R5"
+			(at 152.4 128.016 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 152.4 125.476 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 152.4 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 152.4 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 152.4 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ecea5ebb-1862-4039-a18e-fb0a86dff566")
+		)
+		(pin "2"
+			(uuid "568f92e2-9c81-45f3-9fd4-1194bc008e10")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "R29")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 228.6 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44c8a606-7153-4cea-936f-adcdb3fe55c3")
+		(property "Reference" "#PWR077"
+			(at 228.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 228.6 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 228.6 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "048912dc-583c-4e4c-b5c6-c6b907a27f96")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "#PWR077")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "#PWR058")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "#PWR039")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "489aa045-340d-4ff0-8b39-7ef1969f7a41")
+		(property "Reference" "#PWR066"
+			(at 109.22 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5daf1ec-231e-4d41-8206-d6bed91a57d3")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "#PWR066")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "#PWR047")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "#PWR028")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a31b05b-dae6-4811-8b48-24ef25c63279")
+		(property "Reference" "#PWR074"
+			(at 170.18 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d7ce362-7d22-4e3a-ad43-18c8cc16ccc9")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "#PWR074")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "#PWR055")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "#PWR036")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 111.76 123.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4d7239e7-bfa3-4771-aa12-f8ce9d5a973b")
+		(property "Reference" "R3"
+			(at 111.76 128.016 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 111.76 125.476 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 111.76 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 111.76 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 111.76 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ea29af0-395a-4c9c-a9f0-2fbaa08019c7")
+		)
+		(pin "2"
+			(uuid "ba0aa130-b9b9-4c37-8409-8bc4b4e9668c")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "R27")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "518bd2ef-1244-4645-9bba-688db0ce6667")
+		(property "Reference" "#PWR061"
+			(at 68.58 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ede72dc9-e68b-42f9-b15b-5796a60bfa07")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "#PWR061")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "#PWR042")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "#PWR023")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_Open")
+		(at 182.88 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52ded72b-7926-40f7-a508-a99e1c51f0f6")
+		(property "Reference" "SW6"
+			(at 182.88 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_Open"
+			(at 182.88 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch:SW-SMD_HX-KFC-V-105"
+			(at 182.88 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 182.88 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "51452586-60af-4db4-b79c-4eafeb92d8be")
+		)
+		(pin "1"
+			(uuid "64386f6a-7d91-440f-b94c-634b9ee4b66e")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "SW30")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "SW22")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "SW14")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 86.36 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c206762-26d5-42bd-9413-d7229cba6dc5")
+		(property "Reference" "#PWR060"
+			(at 86.36 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 86.36 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 86.36 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b253db9a-0b1b-48b1-985f-848bfff73930")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "#PWR060")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "#PWR041")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "#PWR022")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_Open")
+		(at 203.2 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fb5c11c-1eae-4781-8084-a39412f7a146")
+		(property "Reference" "SW7"
+			(at 203.2 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_Open"
+			(at 203.2 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch:SW-SMD_HX-KFC-V-105"
+			(at 203.2 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 203.2 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "32c6be14-8d43-4dd8-a19f-17b703ce75bc")
+		)
+		(pin "1"
+			(uuid "0adbbd8e-3658-4c94-b647-0654c1fc7bc4")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "SW31")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "SW23")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "SW15")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 71.12 123.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "64ea70e2-63a1-4e7a-9c87-5291cd3cf530")
+		(property "Reference" "R1"
+			(at 71.12 128.016 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 71.12 125.476 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 71.12 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 71.12 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 71.12 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da27e320-496b-4f67-8fe1-1b1ae80e3dc7")
+		)
+		(pin "2"
+			(uuid "c2fa8e5d-6e13-4712-b738-1ea5c81916e1")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "R25")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 184.15 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6ad357d5-6802-4498-9bb3-8e50f55bf43c")
+		(property "Reference" "#PWR02"
+			(at 184.15 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.928 65.024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5363fd7-dc0f-4363-b502-842d2cb221c4")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 208.28 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b0740ae-629c-4639-ac85-0d3b6f3c17b3")
+		(property "Reference" "#PWR075"
+			(at 208.28 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 208.28 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 208.28 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "634d1f3d-23ea-40f0-8e8f-8ba22833e2da")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "#PWR075")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "#PWR056")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "#PWR037")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 172.72 123.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8429ee36-ae43-4c2c-a156-64d1c9fa185c")
+		(property "Reference" "R6"
+			(at 172.72 128.016 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 172.72 125.476 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 172.72 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 172.72 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 172.72 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05a61332-295e-4c36-949a-bddcb9c6599c")
+		)
+		(pin "2"
+			(uuid "e25f8260-b742-4030-a9b7-07e32653a10f")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "R30")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "R14")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 147.32 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8535bdac-5046-43df-a050-7ab128475c6f")
+		(property "Reference" "#PWR067"
+			(at 147.32 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 147.32 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 147.32 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ce38b67-20d6-42bf-82cf-d1aaa57585a4")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "#PWR067")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "#PWR048")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "#PWR029")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 99.06 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "869afec3-0dde-4c4a-bd40-e08ec28dc58f")
+		(property "Reference" "#PWR084"
+			(at 99.06 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 99.06 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 99.06 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d27fa5ef-a00c-475c-9693-201ba261321e")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_Open")
+		(at 121.92 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8eefdc5d-0725-4186-bf60-36a0a0cc06e2")
+		(property "Reference" "SW3"
+			(at 121.92 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_Open"
+			(at 121.92 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch:SW-SMD_HX-KFC-V-105"
+			(at 121.92 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 121.92 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ff667cb1-5f11-400d-886c-9f449c9c5a77")
+		)
+		(pin "1"
+			(uuid "95ca9617-93bb-475a-b2c6-6b6d53cef528")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "SW27")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "SW19")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "SW11")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC165")
+		(at 142.24 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9080d9f2-b72e-464c-b256-e8e0d08c062f")
+		(property "Reference" "U1"
+			(at 147.6854 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC165"
+			(at 145.1454 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+			(at 142.24 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf"
+			(at 142.24 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Shift Register, 8-bit, Parallel Load"
+			(at 142.24 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 142.24 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a2af331e-3127-4d84-8526-239b355bedf2")
+		)
+		(pin "14"
+			(uuid "119f7510-79fe-407f-bfd0-bb1a34d478b4")
+		)
+		(pin "8"
+			(uuid "5dfc24b8-29ca-44fb-b464-48cde4f3565f")
+		)
+		(pin "5"
+			(uuid "27b20c80-bacf-4283-82f3-f859c64f1c19")
+		)
+		(pin "4"
+			(uuid "da1df790-bfc9-4d28-82a2-88c8e7895447")
+		)
+		(pin "13"
+			(uuid "5d161c56-ad61-437f-90af-45c2fd758003")
+		)
+		(pin "11"
+			(uuid "15bac9b6-bede-4c04-ae1d-cf67912a9c7b")
+		)
+		(pin "12"
+			(uuid "a698cc93-850a-4f2c-b84d-f091b6aeddf1")
+		)
+		(pin "16"
+			(uuid "e3d36121-cbaf-4c23-b9da-45272807c1c2")
+		)
+		(pin "3"
+			(uuid "ea589248-30e9-44ec-acd1-2c930a113770")
+		)
+		(pin "6"
+			(uuid "5a211731-c745-497e-85e6-589afe1e3021")
+		)
+		(pin "15"
+			(uuid "6e1d04ed-ada1-43cc-bcc3-22fbf3512e71")
+		)
+		(pin "2"
+			(uuid "0c57cd01-66cf-40c3-8f78-2a64fabedcc3")
+		)
+		(pin "10"
+			(uuid "e41331ee-6901-4abf-9f21-a7d750339116")
+		)
+		(pin "9"
+			(uuid "e8b59269-e0cf-4a68-9a38-0cc59702e9e8")
+		)
+		(pin "7"
+			(uuid "43f9aeb4-4b11-47b5-8570-700a097d322d")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "U4")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "U3")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "U2")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 187.96 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "97b2d5b9-c43b-4e32-a974-03251695c1f0")
+		(property "Reference" "#PWR01"
+			(at 187.96 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 190.5 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 187.96 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a11726f-2412-465a-80ea-85a477753f7f")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 132.08 123.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9a0a2fc2-3524-4495-b93d-d2c344e87cf1")
+		(property "Reference" "R4"
+			(at 132.08 128.016 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 132.08 125.476 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 132.08 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 132.08 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 132.08 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "023a7027-f1a2-43de-8bae-2a1ba0ae61f4")
+		)
+		(pin "2"
+			(uuid "721428be-ef2a-4131-b530-4f0d6fe7f98a")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "R28")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 213.36 123.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9fbf1608-e9ff-4c63-a77a-8d9af879735b")
+		(property "Reference" "R8"
+			(at 213.36 128.016 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 213.36 125.476 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 213.36 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 213.36 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 213.36 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8868bdb2-3eec-480f-96b7-845df954adc4")
+		)
+		(pin "2"
+			(uuid "e3fe03a5-1364-4514-907a-c49854ce8456")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "R32")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "R24")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a42ad1d7-d7ae-4cf5-aca7-f97463a09495")
+		(property "Reference" "#PWR071"
+			(at 142.24 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f99ca63-92b1-4fa6-b833-0cf032a924f1")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "#PWR071")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "#PWR052")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "#PWR033")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_Open")
+		(at 101.6 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa05f6ff-f15f-467a-8228-41fa225cab80")
+		(property "Reference" "SW2"
+			(at 101.6 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_Open"
+			(at 101.6 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch:SW-SMD_HX-KFC-V-105"
+			(at 101.6 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 101.6 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6e2e2858-5503-408d-b457-bc25094fb1bb")
+		)
+		(pin "1"
+			(uuid "6b7985fb-7cc8-418e-a9d9-c99e2700e0a9")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "SW26")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "SW18")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "SW10")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 199.39 68.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aa640716-5880-4938-8df1-ce5c67d6058e")
+		(property "Reference" "J1"
+			(at 198.755 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x05_Pin"
+			(at 198.12 76.454 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch:JST_XH_B5B-XH-AM_1x05_P2.50mm_Vertical"
+			(at 199.39 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 199.39 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/JST"
+			(at 199.39 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "1194bdaf-9315-4d5b-bfce-32be58deeb02")
+		)
+		(pin "1"
+			(uuid "6c775cb3-dd78-4bfb-974c-03212d6fc082")
+		)
+		(pin "2"
+			(uuid "139bdf45-b5fb-4b9c-821e-a6f0e5b55f81")
+		)
+		(pin "4"
+			(uuid "1b4d9708-5699-4eb7-9790-097ab7aa5c41")
+		)
+		(pin "5"
+			(uuid "3a10a713-803f-4471-9f28-bff0c515b559")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac5037ca-df07-4579-81bd-9b05b0feb65e")
+		(property "Reference" "#PWR072"
+			(at 149.86 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b62209c4-251d-41b2-81c8-feaab6288b26")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "#PWR072")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "#PWR053")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "#PWR034")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 106.68 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b338d2d0-64b1-4cb1-ad43-ccda02d4d2eb")
+		(property "Reference" "#PWR062"
+			(at 106.68 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 106.68 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 106.68 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3758f262-4222-4717-b781-c68ee54c5430")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "#PWR062")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "#PWR024")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 187.96 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b661fe5c-5875-4fae-b432-f9e095a00e00")
+		(property "Reference" "#PWR073"
+			(at 187.96 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 187.96 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 187.96 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63fa9e24-614e-4b88-a2f2-37c309ed9269")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "#PWR073")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "#PWR054")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "#PWR035")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_Open")
+		(at 223.52 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7f0b9b3-bf23-4a34-9520-c0940d4bcd42")
+		(property "Reference" "SW8"
+			(at 223.52 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_Open"
+			(at 223.52 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch:SW-SMD_HX-KFC-V-105"
+			(at 223.52 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 223.52 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "674d018b-d0fa-4446-9b6b-630348ae7cd0")
+		)
+		(pin "1"
+			(uuid "b74f586d-edff-4059-b8b3-ca703b896d69")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "SW32")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "SW24")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "SW16")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc31cbf7-5a84-4d72-bb90-b55b0b7863b0")
+		(property "Reference" "#PWR085"
+			(at 99.06 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.314 70.104 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17e8ffc9-e3c9-4854-8b44-e747830f17a0")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_Open")
+		(at 81.28 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cd0f07a6-2ce0-4c8d-aec5-10967f629604")
+		(property "Reference" "SW1"
+			(at 81.28 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_Open"
+			(at 80.01 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch:SW-SMD_HX-KFC-V-105"
+			(at 81.28 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 81.28 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "25b06063-2954-425c-b24c-0340e0a35b64")
+		)
+		(pin "1"
+			(uuid "25ee10f7-09fb-4a98-848f-dba7de24835c")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "SW25")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "SW17")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "SW9")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 142.24 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ced6306f-5287-422e-a5f9-34e8e3160564")
+		(property "Reference" "#PWR065"
+			(at 142.24 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 144.78 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 142.24 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "682d0d5e-c7dc-472a-9f21-bc5f4bd3e275")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "#PWR065")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 93.98 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d23e11a9-80ba-4fad-9a7f-64e359ea2fd0")
+		(property "Reference" "#PWR070"
+			(at 123.19 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43cc720d-c967-4e57-83ce-1935d9321002")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "#PWR070")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "#PWR051")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "#PWR032")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 85.09 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d49e14c1-9926-4da3-9564-1dceb884944f")
+		(property "Reference" "J2"
+			(at 85.725 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x05_Pin"
+			(at 85.725 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch:JST_XH_B5B-XH-AM_1x05_P2.50mm_Vertical"
+			(at 85.09 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 85.09 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/JST"
+			(at 85.09 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "f58423dc-229c-4845-8909-a3af3da862af")
+		)
+		(pin "1"
+			(uuid "7f176f99-f4d7-4c22-a141-8f48f0754b09")
+		)
+		(pin "2"
+			(uuid "c3785054-7bff-4e88-ad31-51a6e395f52f")
+		)
+		(pin "4"
+			(uuid "d2edd9f2-0659-4355-aa57-27ff59f1ac32")
+		)
+		(pin "5"
+			(uuid "6469162a-0528-4510-b84e-4b601fef56fa")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dac5821e-26f3-410f-bc1b-11f44e23bd75")
+		(property "Reference" "#PWR068"
+			(at 129.54 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d51e6c2-02f1-463a-8c61-609684732d6f")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "#PWR068")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "#PWR049")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "#PWR030")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 193.04 123.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed17bd13-de93-4541-9e0c-98657ef18639")
+		(property "Reference" "R7"
+			(at 193.04 128.016 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 193.04 125.476 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 193.04 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 193.04 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 193.04 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a5dc92b-596c-4102-8111-67fbf70c4011")
+		)
+		(pin "2"
+			(uuid "5273ba30-1d25-4a1f-ac72-bfa073330642")
+		)
+		(instances
+			(project "BitSwitch_SwitchBoard"
+				(path "/49c3c90d-196f-4d4a-9423-6aae8ccd2e83"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project "BitSwitch"
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/9483cadc-c070-45b0-858f-334dfc185f0b"
+					(reference "R31")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/a8a89d6d-bb9a-449f-b51c-494f3ea94805"
+					(reference "R23")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/b43f691a-3ecd-4246-8aa3-7d019a9a13ef"
+					(reference "R15")
+					(unit 1)
+				)
+				(path "/b466b914-c632-4cb3-9b30-828c6267741e/c5ecbf57-8348-4d17-ac0a-ba4ed8956106"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
